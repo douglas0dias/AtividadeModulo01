@@ -112,3 +112,213 @@
     color: #ffffff;
     box-shadow: 3px 3px 3px #000000;
 }
+
+/* ESTILIZAÇÃO DE TODA A PÁGINA */
+* {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+/* ESTILIZAÇÃO MENU SUPERIOR */
+#menuSuperior {
+    background-color: #303030;
+    color: white;
+}
+
+/* ESTILIZAÇÃO TÍTULO MENU SUPERIOR */
+#tituloMenuSuperior {
+    margin-left: 100px;
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+/* ESTILIZAÇÃO TEXTO MENU SUPERIOR */
+#textoMenuSuperior {
+    margin-left: 100px;
+    margin-top: 15px;
+    padding-bottom: 100px;
+}
+
+/* ESTILIZAÇÃO MENU INFORMACIONAL */
+#menuInformacional {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+/* ESTILIZAÇÃO DA SEÇÃO COM A IMAGEM */
+#secaoImagem {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+/* ESTILIZAÇÃO DA MARGEM DE AMBOS TEXTOS DESCRITIVOS DA IMAGEM */
+#secaoDescricaoImagem {
+    margin-left: 200px;
+}
+
+/* ESTILIZAÇÃO DA MARGEM DO TÍTULO DO TEXTO DA IMAGEM */
+#tituloImagem {
+    margin-top: 150px;
+}
+
+/* ESTILIZAÇÃO DA MARGEM DO TEXTO DESCRITIVO DA IMAGEM */
+#textoImagem {
+    margin-top: 30px;
+}
+
+/* ESTILIZAÇÃO DO TAMANHO DA IMAGEM */
+#imagemSala {
+    border-radius: 30px;
+    height: 400px;
+    margin: 30px;
+}
+
+/* ESTILIZAÇÃO DO FORMULÁRIO */
+#formulario {
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ESTILIZAÇÃO DO TÍTULO DO FORMULÁRIO */
+#tituloFormulario {
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+/* ESTILIZAÇÃO DOS INPUTS NOME E EMAIL */
+.campoPreenchimento {
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px;
+    border: 0px;
+    padding-left: 20px;
+    margin: 40px;
+}
+
+/* ESTILIZAÇÃO DO BOTÃO FALE CONOSCO */
+#botaoFaleConosco {
+    background-color: #C07212;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-left: 130px;
+}
+
+#botaoFaleConosco:hover {
+    background-color: #c0721259;
+    color: #ffffff;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+
+/* MEDIA QUERY PARA TELA MENOR QUE 768px */
+@media screen and (max-width: 768px) {
+    /* Estilização MENU SUPERIOR */
+    #tituloMenuSuperior {
+        margin-left: 20px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    #textoMenuSuperior {
+        margin-left: 20px;
+        margin-top: 15px;
+        padding-bottom: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /* Estilização MENU INFORMACIONAL */
+    #menuInformacional {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .textoInformativo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px;
+    }
+
+    /* Estilização DA SEÇÃO COM A IMAGEM */
+    #secaoImagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tituloImagem{
+        font-size: 30px;
+    }
+
+    #textoImagem{
+        font-size: 20px;
+
+    }
+
+    #secaoDescricaoImagem {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Estilização DO TÍTULO DA IMAGEM */
+    #tituloImagem {
+        margin-top: 50px;
+    }
+
+    /* Estilização DO TEXTO DA IMAGEM */
+    #textoImagem {
+        margin-top: 20px;
+    }
+
+    /* Estilização DA IMAGEM */
+    #imagemSala {
+        height: 400px;
+        margin: 15px;
+    }
+
+    /* Estilização DO FORMULÁRIO */
+    #formulario {
+        padding: 20px;
+        align-items: center;
+    }
+
+    #tituloFormulario{
+        font-size: 30px;
+    }
+
+
+    #botaoFaleConosco {
+        width: 300px;
+        margin-left: 135px;
+        margin-top: 20px;
+
+    }
+
+    /* Ajustando os campos de preenchimento */
+    .campoPreenchimento {
+        width: 500px;
+        margin: 10px;
+    }
+}
