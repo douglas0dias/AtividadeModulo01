@@ -1,6 +1,6 @@
 /* ESTILIZAÇÃO DE TODA A PÁGINA */
 * {
-    margin: 0px;
+    margin: 0;
     font-family: "inter";
 }
 
@@ -12,17 +12,16 @@
 
 /* ESTILIZAÇÃO TÍTULO MENU SUPERIOR */
 #tituloMenuSuperior {
-    margin-left: 100px;
-    padding-top: 150px;
-    font-size: 40px;
+    margin-left: 6.25rem;
+    padding-top: 9.375rem;
+    font-size: 2.5rem;
 }
 
 /* ESTILIZAÇÃO TEXTO MENU SUPERIOR */
 #textoMenuSuperior {
-    margin-left: 100px;
-    margin-top: 15px;
-    padding-bottom: 100px;
-
+    margin-left: 6.25rem;
+    margin-top: 0.9375rem;
+    padding-bottom: 6.25rem;
 }
 
 /* ESTILIZAÇÃO MENU INFORMACIONAL */
@@ -30,121 +29,7 @@
     background-color: #f9f9f9;
     display: flex;
     justify-content: space-around;
-    padding: 50px;
-}
-
-/* ESTILIZAÇÃO DA SEÇÃO COM A IMAGEM */
-#secaoImagem{
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
-}
-
-/* ESTILIZAÇÃO DA MARGEM DE AMBOS TEXTOS DESCRITIVOS DA IMAGEM */
-#secaoDescricaoImagem{
-    margin-left: 200px;
-}
-
-/* ESTILIZAÇÃO DA MARGEM DO TÍTULO DO TEXTO DA IMAGEM */
-#tituloImagem{
-    margin-top: 150px;
-}
-
-/* ESTILIZAÇÃO DA MARGEM DO TEXTO DESCRITIVO DA IMAGEM */
-#textoImagem{
-    margin-top: 30px;
-}
-
-/* ESTILIZAÇÃO DO TAMANHO DA IMAGEM */
-#imagemSala{
-    border-radius: 30px;
-    height: 400px;
-    margin: 30px;
-}
-
-/* ESTILIZAÇÃO DO FORMULARIO */
-#formulario{
-    background-color: #303030;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-/* ESTILIZAÇÃO DO TÍTULO DO FORMULARIO */
-#tituloFormulario{
-    color: #ffffff;
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-
-/* ESTILIZAÇÃO DOS INPUTS NOME E EMAIL */
-.campoPreenchimento{
-    Width: 350px;
-    Height: 35px;
-    border-radius: 10px;
-    display: block;
-    margin: 20px;
-    border: 0px;
-    padding-left: 20px;
-    margin: 40px;
-}
-
-/* ESTILIZAÇÃO DO BOTÃO FALE CONOSCO */
-#botaoFaleConosco{
-    background-color: #C07212;
-    width: 200px;
-    Height: 40px;
-    border: 0px;
-    border-radius: 10px;
-    color: #FFFFFF;
-    font-family: "raleway";
-    cursor: pointer;
-    text-align: center;
-    font-weight: 700;
-    font-size: 16px;
-    margin-bottom: 50px;
-    margin-left: 130px;
-}
-
-#botaoFaleConosco:hover{
-    background-color: #c0721259;
-    color: #ffffff;
-    box-shadow: 3px 3px 3px #000000;
-}
-
-/* ESTILIZAÇÃO DE TODA A PÁGINA */
-* {
-    margin: 0px;
-    font-family: "Inter", sans-serif;
-}
-
-/* ESTILIZAÇÃO MENU SUPERIOR */
-#menuSuperior {
-    background-color: #303030;
-    color: white;
-}
-
-/* ESTILIZAÇÃO TÍTULO MENU SUPERIOR */
-#tituloMenuSuperior {
-    margin-left: 100px;
-    padding-top: 150px;
-    font-size: 40px;
-}
-
-/* ESTILIZAÇÃO TEXTO MENU SUPERIOR */
-#textoMenuSuperior {
-    margin-left: 100px;
-    margin-top: 15px;
-    padding-bottom: 100px;
-}
-
-/* ESTILIZAÇÃO MENU INFORMACIONAL */
-#menuInformacional {
-    background-color: #f9f9f9;
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
+    padding: 3.125rem;
 }
 
 /* ESTILIZAÇÃO DA SEÇÃO COM A IMAGEM */
@@ -156,24 +41,24 @@
 
 /* ESTILIZAÇÃO DA MARGEM DE AMBOS TEXTOS DESCRITIVOS DA IMAGEM */
 #secaoDescricaoImagem {
-    margin-left: 200px;
+    margin-left: 12.5rem;
 }
 
 /* ESTILIZAÇÃO DA MARGEM DO TÍTULO DO TEXTO DA IMAGEM */
 #tituloImagem {
-    margin-top: 150px;
+    margin-top: 9.375rem;
 }
 
 /* ESTILIZAÇÃO DA MARGEM DO TEXTO DESCRITIVO DA IMAGEM */
 #textoImagem {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 /* ESTILIZAÇÃO DO TAMANHO DA IMAGEM */
 #imagemSala {
-    border-radius: 30px;
-    height: 400px;
-    margin: 30px;
+    border-radius: 1.875rem;
+    height: 25rem;
+    margin: 1.875rem;
 }
 
 /* ESTILIZAÇÃO DO FORMULÁRIO */
@@ -188,60 +73,62 @@
 /* ESTILIZAÇÃO DO TÍTULO DO FORMULÁRIO */
 #tituloFormulario {
     color: #ffffff;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-top: 3.125rem;
+    padding-bottom: 0.625rem;
 }
 
 /* ESTILIZAÇÃO DOS INPUTS NOME E EMAIL */
 .campoPreenchimento {
-    width: 350px;
-    height: 35px;
-    border-radius: 10px;
-    display: block;
-    margin: 20px;
-    border: 0px;
-    padding-left: 20px;
-    margin: 40px;
+    width: 21.875rem;
+    height: 2.1875rem;
+    border-radius: 0.625rem;
+    display: flex;
+    align-items: center;
+    margin: 1.25rem;
+    border: 0;
+    padding-left: 1.25rem;
+    margin: 2.5rem;
 }
 
 /* ESTILIZAÇÃO DO BOTÃO FALE CONOSCO */
 #botaoFaleConosco {
     background-color: #C07212;
-    width: 200px;
-    height: 40px;
-    border: 0px;
-    border-radius: 10px;
+    width: 12.5rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 0.625rem;
     color: #FFFFFF;
-    font-family: "Raleway", sans-serif;
+    font-family: "raleway";
     cursor: pointer;
     text-align: center;
     font-weight: 700;
-    font-size: 16px;
-    margin-bottom: 50px;
-    margin-left: 130px;
+    font-size: 1rem;
+    margin-bottom: 3.125rem;
+    margin-left: 8.125rem;
+
 }
 
 #botaoFaleConosco:hover {
     background-color: #c0721259;
     color: #ffffff;
-    box-shadow: 3px 3px 3px #000000;
+    box-shadow: 0.1875rem 0.1875rem 0.1875rem #000000;
+
 }
 
-
 /* MEDIA QUERY PARA TELA MENOR QUE 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48em) {
     /* Estilização MENU SUPERIOR */
     #tituloMenuSuperior {
-        margin-left: 20px;
-        padding-top: 50px;
+        margin-left: 1.25rem;
+        padding-top: 3.125rem;
         text-align: center;
     }
 
     #textoMenuSuperior {
-        margin-left: 20px;
-        margin-top: 15px;
-        padding-bottom: 30px;
-        font-size: 30px;
+        margin-left: 1.25rem;
+        margin-top: 0.9375rem;
+        padding-bottom: 1.875rem;
+        font-size: 1.875rem;
         text-align: center;
     }
 
@@ -250,15 +137,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
-    .textoInformativo{
+    .textoInformativo {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: space-around;
-        margin: 20px;
+        margin: 1.25rem;
     }
 
     /* Estilização DA SEÇÃO COM A IMAGEM */
@@ -268,13 +155,12 @@
         align-items: center;
     }
 
-    #tituloImagem{
-        font-size: 30px;
+    #tituloImagem {
+        font-size: 1.875rem;
     }
 
-    #textoImagem{
-        font-size: 20px;
-
+    #textoImagem {
+        font-size: 1.25rem;
     }
 
     #secaoDescricaoImagem {
@@ -284,41 +170,37 @@
 
     /* Estilização DO TÍTULO DA IMAGEM */
     #tituloImagem {
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
     /* Estilização DO TEXTO DA IMAGEM */
     #textoImagem {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
     /* Estilização DA IMAGEM */
     #imagemSala {
-        height: 400px;
-        margin: 15px;
+        height: 25rem;
+        margin: 0.9375rem;
     }
 
     /* Estilização DO FORMULÁRIO */
     #formulario {
-        padding: 20px;
+        padding: 1.25rem;
         align-items: center;
     }
 
-    #tituloFormulario{
-        font-size: 30px;
+    #tituloFormulario {
+        font-size: 1.875rem;
     }
 
-
     #botaoFaleConosco {
-        width: 300px;
-        margin-left: 135px;
-        margin-top: 20px;
-
+        width: 16rem;
+        margin-top: 1.25rem;
     }
 
     /* Ajustando os campos de preenchimento */
     .campoPreenchimento {
-        width: 500px;
-        margin: 10px;
+        margin-right: 6.25rem;
     }
 }
